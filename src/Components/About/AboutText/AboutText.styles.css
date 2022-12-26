@@ -1,0 +1,8 @@
+.about-text-div {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  height: 30rem;
+  position: absolute;
+  top: 23%;
+}

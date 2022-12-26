@@ -1,0 +1,25 @@
+.about {
+  min-height: 100vh;
+  display: flex;
+  min-width: 100%;
+  background: linear-gradient(
+    to right,
+    #e6dace 0%,
+    #e6dace 40%,
+    white 40%,
+    white 100%
+  );
+  justify-content: center;
+  align-items: center;
+}
+@media all and (max-width: 770px) {
+  .about {
+    background: linear-gradient(
+      to bottom,
+      white 0%,
+      white 25%,
+      #e6dace 25%,
+      #e6dace 100%
+    );
+  }
+}

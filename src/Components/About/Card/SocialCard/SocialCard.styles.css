@@ -1,0 +1,20 @@
+.social-card {
+  min-height: 10%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.social-icons-container {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+@media all and (max-width: 770px) {
+  .social-icons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+}

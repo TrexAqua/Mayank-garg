@@ -1,0 +1,48 @@
+.project-container {
+  background-color: #e6dace;
+}
+.project-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.project-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+}
+.project-intro-heading {
+  display: flex;
+}
+.project-intro-heading h2 {
+  font-size: 35px;
+  font-family: 'Poppins', sans-serif;
+}
+.project-intro-block {
+  width: 20px;
+  height: 20px;
+  background-color: #0050ff;
+  margin-top: 16px;
+  margin-right: 5px;
+}
+.project-intro-p {
+  max-width: 750px;
+}
+.project-intro-p p {
+  line-height: 1.7rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding: 50px;
+  padding-bottom: 25px;
+  font-size: 14px;
+}
+.down-svg {
+  width: 33px;
+  color: #0050ff;
+  fill: #0050ff;
+}
+@media all and (max-width: 950px) {
+  
+}

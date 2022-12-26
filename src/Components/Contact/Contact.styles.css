@@ -1,0 +1,158 @@
+.contact {
+  background-color: #e6dace;
+  height: 1000px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-form {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 695px;
+  height: 700px;
+  background-color: white;
+  justify-content: start;
+  margin-bottom: 5rem;
+}
+.first-two-field {
+  display: flex;
+  margin-top: 50px;
+}
+.first-two-children {
+  margin: 20px;
+}
+.first-two-children label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+.first-two-children input {
+  border: none;
+  background-color: white;
+  border-bottom: 2px solid rgb(105, 105, 105);
+  width: 250px;
+  margin-top: 30px;
+  outline: none;
+}
+.first-two-children input:active {
+  border: none;
+  background-color: white;
+  border-bottom: 2px solid #0050ff;
+  margin-top: 30px;
+  outline: none;
+}
+
+.rest-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 300px;
+}
+.rest-field-children label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+.oof-input {
+  border: none;
+  background-color: white;
+  border-bottom: 2px solid rgb(105, 105, 105);
+  width: 530px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  outline: none;
+}
+.special-input {
+  border: none;
+  background-color: white;
+  border-bottom: 2px solid rgb(105, 105, 105);
+  width: 530px;
+  margin-top: 100px;
+  outline: none;
+}
+.submit-button {
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0050ff;
+  color: white;
+  padding: 8px 40px;
+  border-radius: 25px;
+  align-self: flex-start;
+  margin-left: 80px;
+  margin-top: 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.contact-box-blue {
+  width: 17px;
+  height: 17px;
+  background-color: #0050ff;
+  margin-top: 14px;
+  margin-right: 5px;
+}
+.lets-talk {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.lets-talk h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+}
+@media all and (max-width: 750px) {
+  .contact-form {
+    width: 500px;
+  }
+  .first-two-field {
+    display: flex;
+    flex-direction: column;
+  }
+  .first-two-children input {
+    width: 400px;
+  }
+  .rest-field-children input {
+    width: 400px;
+  }
+  .submit-button {
+    text-align: center;
+  }
+}
+@media all and (max-width: 530px) {
+  .contact-form {
+    width: 400px;
+  }
+  .first-two-field {
+    display: flex;
+    flex-direction: column;
+  }
+  .first-two-children input {
+    width: 300px;
+  }
+  .rest-field-children input {
+    width: 300px;
+  }
+  .submit-button {
+    text-align: center;
+  }
+}
+@media all and (max-width: 430px) {
+  .contact-form {
+    width: 350px;
+  }
+  .first-two-field {
+    display: flex;
+    flex-direction: column;
+  }
+  .first-two-children input {
+    width: 300px;
+  }
+  .rest-field-children input {
+    width: 300px;
+  }
+  .submit-button {
+    text-align: center;
+  }
+}

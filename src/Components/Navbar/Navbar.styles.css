@@ -1,0 +1,84 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  min-height: 10vh;
+  padding: 3vh 4vw;
+  padding-top: 3vh;
+}
+.nav-box {
+  height: 17px;
+  width: 17px;
+  background-color: #0050ff;
+  margin-top: 9px;
+  margin-right: 0.4vw;
+}
+.logo {
+  display: flex;
+}
+.logo h1 {
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+.logo h1 span {
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+}
+.nav-links ul {
+  display: flex;
+}
+.nav-link {
+  list-style-type: none;
+  padding: 15px;
+}
+.nav-link a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+.active-link {
+  list-style-type: none;
+  padding: 15px;
+}
+.active-link a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #0050ff;
+}
+
+@media all and (max-width: 750px) {
+  .logo h1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo h1 span {
+    margin-left: -10px;
+    display: none;
+  }
+  .logo div {
+    margin-top: 5.5px;
+  }
+}
+@media all and (max-width: 520px) {
+  .logo h1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo h1 span {
+    margin-left: -10px;
+    display: none;
+  }
+  .logo div {
+    margin-top: 5.5px;
+  }
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
