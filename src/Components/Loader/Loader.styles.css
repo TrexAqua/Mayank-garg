@@ -1,0 +1,14 @@
+.little-span {
+  margin-left: 2px;
+  font-weight: 800;
+  font-size: 40px;
+}
+.loader-con {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100vh;
+  margin-top: 40vh;
+}

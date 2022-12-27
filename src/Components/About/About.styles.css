@@ -12,6 +12,14 @@
   justify-content: center;
   align-items: center;
 }
+.loaderrr {
+  
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80vh;
+  margin-top: 40vh;
+  display: flex;
+}
 @media all and (max-width: 770px) {
   .about {
     background: linear-gradient(
