@@ -4,8 +4,6 @@ import AboutText from './AboutText/AboutText';
 import Aboutcard from './Card/Aboutcard';
 import PropagateLoader from 'react-spinners/PropagateLoader';
 import { motion } from 'framer-motion';
-import ReactCursorPosition from 'react-cursor-position';
-import Cursor from '../Cursor';
 const About = () => {
   const [loading, setLoading] = useState(false);
 
@@ -28,7 +26,7 @@ const About = () => {
   };
 
   return (
-    <ReactCursorPosition>
+    <>
       {loading === true ? (
         <div key={Math.random()} className="loaderrr">
           <PropagateLoader size={25} color="#0050ff" />
@@ -56,7 +54,7 @@ const About = () => {
           </div>
         </motion.div>
       )}
-    </ReactCursorPosition>
+    </>
   );
 };
 
