@@ -15,9 +15,9 @@ const Contact = () => {
   const [message, setMessage] = useState('');
 
   const animations = {
-    initial: { opacity: 0, x: 100 },
-    animate: { opacity: 1, x: 0 },
-    exit: { opacity: 0, x: -100 },
+    initial: { opacity: 0 },
+    animate: { opacity: 1 },
+    exit: { opacity: 0 },
   };
 
   const submitHandler = () => {
@@ -51,7 +51,7 @@ const Contact = () => {
       initial="initial"
       animate="animate"
       exit="exit"
-      transition={{ duration: 0.7 }}
+      transition={{ duration: 1 }}
       variants={animations}
     >
       <Navbar />

@@ -6,16 +6,16 @@ import ProjectCard from './ProjectCard/ProjectCard';
 import { motion } from 'framer-motion';
 const Projects = () => {
   const animations = {
-    initial: { opacity: 0, x: 100 },
-    animate: { opacity: 1, x: 0 },
-    exit: { opacity: 0, x: -100 },
+    initial: { opacity: 0 },
+    animate: { opacity: 1 },
+    exit: { opacity: 0 },
   };
   return (
     <motion.div
       initial="initial"
       animate="animate"
       exit="exit"
-      transition={{ duration: 0.7 }}
+      transition={{ duration: 1 }}
       variants={animations}
     >
       <Navbar />
@@ -57,9 +57,17 @@ const Projects = () => {
           <ProjectCard
             Name={'Filmpire Movie App'}
             MediaType="Video"
-            Media="https://video.wixstatic.com/video/aa97c7_6f1faefb3a2d47b483fa97bdb8b66beb/720p/mp4/file.mp4"
+            Media="https://www.youtube.com/embed/J7qidvGinww?autoplay=1&mute=1"
             Description="Filmpire is an movie information app much like IMBD which fetches data from an api and displays the information about various movies and artists with real ratings and reviewss.This project was made using Javascript, React, Redux and some more libraries following with a course"
             Link="https://filmpire-ta.netlify.app/"
+          />
+          <ProjectCard
+            Name="Spotify Profile"
+            MediaType="Video"
+            Media="https://www.youtube.com/embed/uhh8BYpurAM?autoplay=1&mute=1"
+            Description={`Spotify Profile is an application which will login through your original spotify account using spotify's official API to authenticate and will display various things about your tracks, your playlists etc.
+            This app is made using ReactJS and the Spotify offical API`}
+            Link="https://www.instagram.com/p/Cm1GsMQhGjg/"
           />
           <ProjectCard
             Name="Red Forest Made In UE4"
@@ -67,14 +75,6 @@ const Projects = () => {
             Media="https://static.wixstatic.com/media/aa97c7_cc1a5af81f7941f2873af88724a16705~mv2.jpg/v1/fill/w_404,h_227,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/273041869_361968005743431_6657941296919198340_n.jpg"
             Description="Made this realistic red wood forest in Unreal Engine 4 for a client, Main focus was on light, camera composition and post processing. Used red wood forest pack from Unreal Marketplace and landscape tools for overall land composition.​"
             Link="https://www.instagram.com/p/CZZ_6kvPlHa/"
-          />
-          <ProjectCard
-            Name="Deserted Town"
-            MediaType="Image"
-            Media="https://static.wixstatic.com/media/aa97c7_f036079219cf48a3a077e4f130e4d5e3~mv2.jpg/v1/fill/w_404,h_227,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/278344658_375374901120183_8107925013405826649_n.jpg"
-            Description={`It was a big project as I was making a whole wild west town, I used western desert town asset pack from the unreal marketplace:Western Desert Town by KK Design.
-            Whole map is playable and optimized for 4K 60fps`}
-            Link="https://www.instagram.com/p/CcPHwvFvbrP/"
           />
         </div>
       </div>

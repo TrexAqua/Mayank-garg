@@ -4,12 +4,16 @@
   background-color: #0050ff;
 }
 .card-project {
+  border-radius: 10px;
   margin-bottom: 3rem;
   background-color: white;
   width: 900px;
   height: 400px;
   display: flex;
   margin-top: 2rem;
+  -webkit-box-shadow: 10px 3px 35px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 3px 35px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 3px 35px -7px rgba(0, 0, 0, 0.75);
 }
 .project-info {
   display: flex;
@@ -68,6 +72,9 @@
     width: 300px;
   }
   .project-media video {
+    width: 350px;
+  }
+  .project-media iframe {
     width: 350px;
   }
   .project-media img {

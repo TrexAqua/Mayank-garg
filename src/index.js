@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
+import { AnimatePresence } from 'framer-motion';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -25,9 +26,9 @@ const router = createBrowserRouter([
 ]);
 
 root.render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+  <AnimatePresence mode={'wait'}>
+    <RouterProvider key={Math.random()} router={router} />
+  </AnimatePresence>
 );
 
 reportWebVitals();

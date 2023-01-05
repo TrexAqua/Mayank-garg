@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  border-radius: 15px;
 }
 .social-icons-container {
   display: flex;

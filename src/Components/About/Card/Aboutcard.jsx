@@ -1,6 +1,7 @@
 import React from 'react';
 import './Aboutcard.styles.css';
 import SocialCard from './SocialCard/SocialCard';
+import { motion } from 'framer-motion';
 const Aboutcard = () => {
   return (
     <div className="main-about">
@@ -40,7 +41,14 @@ const Aboutcard = () => {
           <h1>Hello</h1>
           <h3>Here's who I am & what I do</h3>
           <div className="about-buttons">
-            <a
+            <motion.a
+              whileHover={{
+                scale: 1.1,
+                transition: '2s',
+              }}
+              whileTap={{
+                scale: 0.9,
+              }}
               style={{
                 color: 'white',
                 display: 'flex',
@@ -50,10 +58,20 @@ const Aboutcard = () => {
               href="/projects"
             >
               PROJECTS
-            </a>
-            <a className="about-contacts" href="/contact">
+            </motion.a>
+            <motion.a
+              whileHover={{
+                scale: 1.1,
+                transition: '2s',
+              }}
+              whileTap={{
+                scale: 0.9,
+              }}
+              className="about-contacts"
+              href="/contact"
+            >
               CONTACTS
-            </a>
+            </motion.a>
           </div>
         </div>
         <div className="about-para">

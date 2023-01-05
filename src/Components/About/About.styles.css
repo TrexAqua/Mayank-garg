@@ -12,8 +12,18 @@
   justify-content: center;
   align-items: center;
 }
+.cursor {
+  background-color: #111;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
 .loaderrr {
-  
   justify-content: center;
   align-items: center;
   margin-bottom: 80vh;
