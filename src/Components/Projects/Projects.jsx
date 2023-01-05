@@ -65,8 +65,8 @@ const Projects = () => {
             Name="Spotify Profile"
             MediaType="Video"
             Media="https://www.youtube.com/embed/uhh8BYpurAM?autoplay=1&mute=1"
-            Description={`Spotify Profile is an application which will login through your original spotify account using spotify's official API to authenticate and will display various things about your tracks, your playlists etc.
-            This app is made using ReactJS and the Spotify offical API`}
+            Description={`Spotify Profile is an application that will log in through your original Spotify account using Spotify's official API to authenticate and will display various things about your tracks, your playlists etc.
+            I made this app using ReactJS and the Spotify official API`}
             Link="https://www.instagram.com/p/Cm1GsMQhGjg/"
           />
           <ProjectCard

@@ -10,8 +10,9 @@
 .social-icons-container {
   display: flex;
   justify-content: space-between;
-  width: 35%;
+  width: 40%;
 }
+
 @media all and (max-width: 770px) {
   .social-icons-container {
     display: flex;
