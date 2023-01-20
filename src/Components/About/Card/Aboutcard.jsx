@@ -76,11 +76,12 @@ const Aboutcard = () => {
         </div>
         <div className="about-para">
           <p>
-            Hello! My name is Mayank and I enjoy creating things that live on
-            the internet and your computers. My interest in web development
-            started back in 2020 when my friend told me about web development
-            and it turns out messing around in the code editor with google,
-            taught me a lot about HTML, CSS and Javascript.
+            Hello, my name is Mayank. I have a passion for creating things that
+            live on the internet and computers. My interest in web development
+            began in 2020, when a friend introduced me to the field. Through
+            experimenting with a code editor and utilizing resources such as
+            Google, I have gained a strong understanding of HTML, CSS, and
+            Javascript.
           </p>
         </div>
       </div>
